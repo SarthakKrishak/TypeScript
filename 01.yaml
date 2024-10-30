@@ -1,0 +1,25 @@
+Data types-
+1. Primitive
+2. Reference - generally when we use (),{},[] it is a refference type.
+  
+
+--> We write code in typescript and then when we run this tsc code then it converts 
+into JS.
+--> We can use any JS library in typescript.
+--> We can use any JS framework in typescript.
+
+To download Ts,
+
+  npm i typescript -g   (Globally)
+
+When you want to run the typescript code then write this command,
+  
+  tsc file_name
+
+When you want that it should continuously update the JS file so write,
+
+  tsc --watch
+
+To make tsconfig file,
+
+  tsc --init
